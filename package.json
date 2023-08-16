@@ -24,6 +24,7 @@
     "react-router-dom": "^6.15.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
+    "sweetalert2": "^11.7.23",
     "tailwindcss": "^3.3.3",
     "three": "^0.155.0",
     "util": "^0.12.5"
