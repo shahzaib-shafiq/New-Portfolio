@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "Web Developer",
     icon: web,
   },
   {
-    title: "Android Developer",
+    title: "React Native Developer",
     icon: mobile,
   },
   {
-    title: "Node JS Developer",
+    title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Software Design",
+    title: "Content Creator",
     icon: creator,
   },
 ];
@@ -117,54 +117,54 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "React JS",
-    icon: reactjs,
+    company_name: "Starbucks",
+    icon: starbucks,
     iconBg: "#383E56",
-    date: "July 2022 - Present",
+    date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, managers, and other developers to create high-quality products.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Android Developer",
-    company_name: "Android",
-    icon:mobile,
+    title: "React Native Developer",
+    company_name: "Tesla",
+    icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Dec 2022 - Present",
+    date: "Jan 2021 - Feb 2022",
     points: [
-      "Creating Sustaining Mbile Applications for Android utilizing technologies such as Java/Kotlin.",
-      "Working closely with  groups, including UX/UI designers, product managers, and fellow developers, to produce top-notch mobile solutions.",
-      "Integrating adaptive layouts to guarantee seamless user experiences across various Android devices and screen sizes.",
-      
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Node JS Developer",
-    company_name: "Node",
-    icon: nodejs,
+    title: "Web Developer",
+    company_name: "Shopify",
+    icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      
-      "Crafting and nurturing web applications through the power of Node.js and Express.js, in conjunction with a suite of complementary technologies",
-      "Fostering collaboration across teams, including creative designers,  and fellow dedicated developers, to forge remarkable end products.",
-      "meticulously validating cross-browser and cross-device compatibility for a polished user experience.",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Software Design",
-    company_name: "Software Design",
-    icon:redux,
+    title: "Full stack Developer",
+    company_name: "Meta",
+    icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Shaping software solutions through meticulous design and architecture considerations that align with industry best practices and project requirements.",
-      "Collaborating seamlessly with cross-disciplinary teams, including user experience experts, product visionaries, and development teams, to translate ideas into well-orchestrated software designs",
-      "Evaluating design options critically and making informed decisions that optimize for performance, user experience, and long-term viability",
-      "Documenting design principles, patterns, and decisions comprehensively, empowering developers and stakeholders to align their efforts and make informed contributions."
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -172,7 +172,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but he proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +180,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like he does.",
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +188,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've rarely encountered a web developer who demonstrates a genuine commitment to their clients' success, quite like him",
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,9 +198,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rental Website",
+    name: "Car Rent",
     description:
-      "A Website platform that allows users to search, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
@@ -219,17 +219,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "E-Commerce Website",
+    name: "Job IT",
     description:
-      "Online retail hub providing users with the capability to discover merchandise, access premier categories, ascertain price ranges for specific items",
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
-    
       {
-        name: "Tailwind CSS",
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
@@ -237,9 +240,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Property Selling Platform",
+    name: "Trip Guide",
     description:
-    "An inclusive real estate selling platform enabling users to list properties for sale, connect with potential buyers with desirable  locations",
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "nextjs",
