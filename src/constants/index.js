@@ -117,82 +117,101 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "MERN Stack Intern",
+    company_name: "FastDev Labs",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2023 - August 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Full-fledged React Front End: I was tasked with crafting the complete front-end of a website using React JS. This project honed my skills in creating dynamic, responsive, and user-friendly web interfaces",
+      "Tailored React Page: I had the opportunity to design and develop a custom page for a website using React. This project allowed me to showcase my creativity and fine-tune my React expertise.",
+      "Blogging Platform: Collaborating on a blogging platform was a rewarding experience. It provided me with insights into content management and further enriched my knowledge of full-stack development. This project not only enhanced my technical skills but also deepened my appreciation for user-friendly content platforms.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Web Development Intern",
+    company_name: "Contract.PK ",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2022 - Sep 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed Landing Pages using React JS",
+      "Learned About States,Props,Class and Functional Components and Conditionals",
+      "Used MUI for Components",
+      "Developed Weather App using Open Weather Map API",
+      "Learned Tailwind CSS for Rapid Page Design",
+      "Developed a Website for Law Firm and hosted the website"
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Digital Systems Intern",
+    company_name: "FFC MM PLANT SITE-III",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+"Week 1 :HTML , CSS ,Bootstrap and Tailwind",
+"Week 2 :Networking including the working of Data Centers, Routers, Switches and Firewalls", 
+"Week 3 :Project Managment Skills including Scope Schedule and Cost of a Development Project", 
+"Week 4 :SAP Modules to Synchronize and Manage Business Operations and Customer Relations"
+
+
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "BS Computer Science",
+    company_name: "FAST National University of Computer and Emerging Sciences",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2020 - June-2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     
+      "Core Courses",
+      "Programming Fundamental (PF)",
+       "Object Oriented Programming (OOP)",
+      
+"Data Structures",
+
+"Database Systems",
+
+
+"Design and Analysis of Algorithms",
+
+
+"Operating Systems",
+
+
+
+"Parallel and Distributed Computing",
+"Software Design and Analysis",
+
+"Data Science",
+"Software Engineering",  
+"Software for Mobile Devices",
+"Fundamentals of Software Project Management",
+"Fundamentals of Computer Vision",
+
     ],
   },
 ];
 
 const testimonials = [
+  
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    testimonial:     
+      "I  highly recommend Shahzaib based on his outstanding performance His ability to adapt to new challenges and learn quickly was particularly commendable",
+    name: "Fazeel Khalid",
+    designation: "Software Engineer",
+    company: "Fast Dev",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Shahzaib Shafiq was working here as Internee in FFC. I found him very tenanted and focused. He has proved himself as a good software developer.",
     name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    designation: "Network Engineer",
+    company: "FFC PlantSite-III",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
