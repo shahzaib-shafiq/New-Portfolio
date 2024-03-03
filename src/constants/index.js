@@ -23,7 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
-  bootstrap
+  bootstrap,
+  firebase,
+  // home,
+  // dash,
+  // teslas,
+  // port
 } from "../assets";
 
 export const navLinks = [
@@ -83,7 +88,7 @@ const technologies = [
   },
   {
     name: "Redux Toolkit",
-    icon: redux,
+    icon: firebase,
   },
   {
     name: "Tailwind CSS",
@@ -245,15 +250,15 @@ const projects = [
       "Comprehensive Data Analysis of Imtiaz Mall electronics data which include data cleaning, data  transformation ,  data  analysis with k-means and DB Scan",
     tags: [
       {
-        name: "react",
+        name: "Data Cleaning",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Data Analysis",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "K-means",
         color: "pink-text-gradient",
       },
     ],
@@ -266,15 +271,15 @@ const projects = [
       "Airport Management System Used To Manage All the Airport Opreations including booking , flight Schedule ,Arrivals,Departures using C# with Oracle  Database(SQL)",
     tags: [
       {
-        name: "nextjs",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Oracle",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "SQL",
         color: "pink-text-gradient",
       },
     ],
