@@ -4,31 +4,30 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  
   html,
   css,
   reactjs,
-  redux,
+  
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  dev,
+  FFC,
+  contract,
+  nuces,
   threejs,
   bootstrap,
   firebase,
-  // home,
-  // dash,
-  // teslas,
-  // port
+  home,
+  dash,
+  teslapage,
+  port,
+  data,
+  fyp
 } from "../assets";
 
 export const navLinks = [
@@ -124,7 +123,7 @@ const experiences = [
   {
     title: "MERN Stack Intern",
     company_name: "FastDev Labs",
-    icon: starbucks,
+    icon: dev,
     iconBg: "#383E56",
     date: "July 2023 - August 2023",
     points: [
@@ -137,7 +136,7 @@ const experiences = [
   {
     title: "Web Development Intern",
     company_name: "Contract.PK ",
-    icon: tesla,
+    icon: contract,
     iconBg: "#E6DEDD",
     date: "Aug 2022 - Sep 2022",
     points: [
@@ -152,7 +151,7 @@ const experiences = [
   {
     title: "Digital Systems Intern",
     company_name: "FFC MM PLANT SITE-III",
-    icon: shopify,
+    icon: FFC,
     iconBg: "#383E56",
     date: "July 2022 - Aug 2022",
     points: [
@@ -167,7 +166,7 @@ const experiences = [
   {
     title: "BS Computer Science",
     company_name: "FAST National University of Computer and Emerging Sciences",
-    icon: meta,
+    icon: nuces,
     iconBg: "#E6DEDD",
     date: "Sep 2020 - June-2024",
     points: [
@@ -241,8 +240,8 @@ const projects = [
       },
 
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:fyp,
+    source_code_link: "https://drive.google.com/drive/folders/1cQxhuXTUZ_rNPIjJYvb4Bjeu82gpfq16?usp=sharing",
   },
   {
     name: "Data Analysis of Imtiaz Mall Electronics Sales",
@@ -262,8 +261,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: data,
+    source_code_link: "https://github.com/shahzaib-shafiq/DS-Project",
   },
   {
     name: "Airport Management System",
@@ -271,7 +270,7 @@ const projects = [
       "Airport Management System Used To Manage All the Airport Opreations including booking , flight Schedule ,Arrivals,Departures using C# with Oracle  Database(SQL)",
     tags: [
       {
-        name: "C#",
+        name: " C#",
         color: "blue-text-gradient",
       },
       {
@@ -283,71 +282,73 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: port,
+    source_code_link: "https://github.com/shahzaib-shafiq/Airport-Managment-System-db-",
   },
   {
-    name: "Airport Management System",
+    name: "Virtual Reality Page",
     description:
-      "Airport Management System Used To Manage All the Airport Opreations including booking , flight Schedule ,Arrivals,Departures using C# with Oracle  Database(SQL)",
+      "A Virtual Reality Page developed with React JS creates an interactive 3D environment accessible through web browsers.This technology opens doors for virtual tours, educational experiences, immersive gaming, and more, offering a unique blend of the real and virtual worlds.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Slider",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dash,
+    source_code_link: "https://github.com/shahzaib-shafiq/Virtual-Reality-PAGE",
   },
   {
-    name: "Airport Management System",
+    name: "Tesla Landing Page",
     description:
-      "Airport Management System Used To Manage All the Airport Opreations including booking , flight Schedule ,Arrivals,Departures using C# with Oracle  Database(SQL)",
+      "Welcome to Tesla, where innovation meets sustainability. We are leading the charge in electric vehicles, creating not just cars, but a driving experience unlike any other. Explore our lineup of industry-leading sedans, SUVs, and trucks, all boasting exceptional performance, cutting-edge technology.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: teslapage,
+    source_code_link: "https://github.com/shahzaib-shafiq/Tesla-Landing-Page",
   },
   {
-    name: "Airport Management System",
+    name: "Property Rent Landing Page",
     description:
-      "Airport Management System Used To Manage All the Airport Opreations including booking , flight Schedule ,Arrivals,Departures using C# with Oracle  Database(SQL)",
-    tags: [
+      "Find your dream rental property effortlessly! Our user-friendly platform offers a vast selection of apartments, houses, and condos, meticulously curated to fit your needs and budget. Browse stunning visuals and price ",
+   
+      tags: [
       {
-        name: "nextjs",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
+     
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: home,
+    source_code_link: "https://github.com/shahzaib-shafiq/Real-Estate-App",
   },
 ];
 

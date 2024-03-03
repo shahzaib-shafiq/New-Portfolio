@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -27,9 +29,23 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import  dev from './company/dev.png';
+import  FFC from './company/FFC.png';
+import  contract from './company/contract.png';
+import  nuces from './company/nuces.png';
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import dash from './dash.png'
+import port from './port.png'
+import teslapage from './teslapage.png'
+import home from './home.png'
+import data from './data.png'
+import fyp from './fyp.png'
+
+
 
 export {
   logo,
@@ -58,8 +74,18 @@ export {
   starbucks,
   tesla,
   carrent,
+  dash,
+  port,
+  teslapage,
+  home,
+  data,
+  fyp,
   jobit,
   tripguide,
   bootstrap,
-  firebase
+  firebase,
+  nuces,
+  FFC,
+contract,
+dev
 };
