@@ -45,9 +45,13 @@ import home from './home.png'
 import data from './data.png'
 import fyp from './fyp.png'
 
+import Posrgres from './tech/Postgres.png'
+
+
 
 
 export {
+  Posrgres,
   logo,
   backend,
   creator,

@@ -25,7 +25,8 @@ import {
   teslapage,
   port,
   data,
-  fyp
+  fyp,
+  Posrgres
 } from "../assets";
 
 export const navLinks = [
@@ -101,7 +102,7 @@ const technologies = [
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: Posrgres,
   },
   {
     name: "git",
