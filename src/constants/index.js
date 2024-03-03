@@ -4,12 +4,10 @@ import {
   creator,
   web,
   javascript,
-  
-  html,
+    html,
   css,
   reactjs,
-  
-  tailwind,
+    tailwind,
   nodejs,
   mongodb,
   git,
