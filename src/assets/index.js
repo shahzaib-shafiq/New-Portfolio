@@ -46,11 +46,15 @@ import data from './data.png'
 import fyp from './fyp.png'
 
 import Posrgres from './tech/Postgres.png'
+import Python from './tech/Python.png'
+import mui from './tech/mui.png';
 
 
 
 
 export {
+  Python,
+  mui,
   Posrgres,
   logo,
   backend,

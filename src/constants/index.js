@@ -26,7 +26,9 @@ import {
   port,
   data,
   fyp,
-  Posrgres
+  Posrgres,
+  Python,
+  mui,
 } from "../assets";
 
 export const navLinks = [
@@ -114,7 +116,11 @@ const technologies = [
   },
   {
     name: "docker",
-    icon: docker,
+    icon: Python,
+  },
+  {
+    name: "docker",
+    icon: mui,
   },
 ];
 
