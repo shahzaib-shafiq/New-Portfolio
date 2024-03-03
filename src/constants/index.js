@@ -218,30 +218,31 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Student Support And Navigation App(FYP)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The App provides seamless operations by handling bus routes, faculty info, course data, University announcements, Upcoming events and senior guidance portal",
     tags: [
       {
-        name: "react",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "React",
         color: "pink-text-gradient",
       },
+
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Data Analysis of Imtiaz Mall Electronics Sales",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Comprehensive Data Analysis of Imtiaz Mall electronics data which include data cleaning, data  transformation ,  data  analysis with k-means and DB Scan",
     tags: [
       {
         name: "react",
@@ -260,9 +261,72 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Airport Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Airport Management System Used To Manage All the Airport Opreations including booking , flight Schedule ,Arrivals,Departures using C# with Oracle  Database(SQL)",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Airport Management System",
+    description:
+      "Airport Management System Used To Manage All the Airport Opreations including booking , flight Schedule ,Arrivals,Departures using C# with Oracle  Database(SQL)",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Airport Management System",
+    description:
+      "Airport Management System Used To Manage All the Airport Opreations including booking , flight Schedule ,Arrivals,Departures using C# with Oracle  Database(SQL)",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Airport Management System",
+    description:
+      "Airport Management System Used To Manage All the Airport Opreations including booking , flight Schedule ,Arrivals,Departures using C# with Oracle  Database(SQL)",
     tags: [
       {
         name: "nextjs",
