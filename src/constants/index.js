@@ -65,11 +65,35 @@ const services = [
   },
 ];
 
-const technologies = [
+const Profiles = [
   {
-    name: "HTML 5",
-    icon: html,
+    title: "LinkedIn",
+    icon: web,
+    link: 'https://www.linkedin.com/in/shahzaib-shafiq/',
   },
+  {
+    title: "Github",
+    icon: mobile,
+    link: 'https://github.com/shahzaib-shafiq',
+  },
+  {
+    title: "Resume",
+    icon: backend,
+    link: 'https://drive.google.com/file/d/1E57mETSOL7FVsCq2nqlT-qGf-_td6WJX/view?usp=sharing',
+  },
+  {
+    title: "HackerRank",
+    icon: creator,
+    link: 'https://www.hackerrank.com/profile/shafiqshahzaib',
+  },
+];
+
+
+const technologies = [
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
   {
     name: "CSS 3",
     icon: css,
@@ -357,4 +381,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects,Profiles };
