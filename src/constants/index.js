@@ -4,20 +4,20 @@ import {
   creator,
   web,
   javascript,
-    html,
+  html,
   css,
   reactjs,
-    tailwind,
+  tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
+
   dev,
   FFC,
   contract,
   nuces,
-  threejs,
+
   bootstrap,
   firebase,
   home,
@@ -80,7 +80,7 @@ const technologies = [
   },
   {
     name: "Bootstrap",
-    icon:   bootstrap,
+    icon: bootstrap,
   },
   {
     name: "React JS",
@@ -110,10 +110,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: Python,
@@ -160,10 +160,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2022 - Aug 2022",
     points: [
-"Week 1 :HTML , CSS ,Bootstrap and Tailwind",
-"Week 2 :Networking including the working of Data Centers, Routers, Switches and Firewalls", 
-"Week 3 :Project Managment Skills including Scope Schedule and Cost of a Development Project", 
-"Week 4 :SAP Modules to Synchronize and Manage Business Operations and Customer Relations"
+      "Week 1 :HTML , CSS ,Bootstrap and Tailwind",
+      "Week 2 :Networking including the working of Data Centers, Routers, Switches and Firewalls",
+      "Week 3 :Project Managment Skills including Scope Schedule and Cost of a Development Project",
+      "Week 4 :SAP Modules to Synchronize and Manage Business Operations and Customer Relations"
 
 
     ],
@@ -175,40 +175,40 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2020 - June-2024",
     points: [
-     
+
       "Core Courses",
       "Programming Fundamental (PF)",
-       "Object Oriented Programming (OOP)",
-      
-"Data Structures",
+      "Object Oriented Programming (OOP)",
 
-"Database Systems",
+      "Data Structures",
 
-
-"Design and Analysis of Algorithms",
+      "Database Systems",
 
 
-"Operating Systems",
+      "Design and Analysis of Algorithms",
+
+
+      "Operating Systems",
 
 
 
-"Parallel and Distributed Computing",
-"Software Design and Analysis",
+      "Parallel and Distributed Computing",
+      "Software Design and Analysis",
 
-"Data Science",
-"Software Engineering",  
-"Software for Mobile Devices",
-"Fundamentals of Software Project Management",
-"Fundamentals of Computer Vision",
+      "Data Science",
+      "Software Engineering",
+      "Software for Mobile Devices",
+      "Fundamentals of Software Project Management",
+      "Fundamentals of Computer Vision",
 
     ],
   },
 ];
 
 const testimonials = [
-  
+
   {
-    testimonial:     
+    testimonial:
       "I  highly recommend Shahzaib based on his outstanding performance His ability to adapt to new challenges and learn quickly was particularly commendable",
     name: "Fazeel Khalid",
     designation: "Software Engineer",
@@ -245,7 +245,7 @@ const projects = [
       },
 
     ],
-    image:fyp,
+    image: fyp,
     source_code_link: "https://drive.google.com/drive/folders/1cQxhuXTUZ_rNPIjJYvb4Bjeu82gpfq16?usp=sharing",
   },
   {
@@ -336,8 +336,8 @@ const projects = [
     name: "Property Rent Landing Page",
     description:
       "Find your dream rental property effortlessly! Our user-friendly platform offers a vast selection of apartments, houses, and condos, meticulously curated to fit your needs and budget. Browse stunning visuals and price ",
-   
-      tags: [
+
+    tags: [
       {
         name: "Reactjs",
         color: "blue-text-gradient",
@@ -350,7 +350,7 @@ const projects = [
         name: "CSS",
         color: "pink-text-gradient",
       },
-     
+
     ],
     image: home,
     source_code_link: "https://github.com/shahzaib-shafiq/Real-Estate-App",
