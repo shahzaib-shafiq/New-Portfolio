@@ -86,14 +86,12 @@ const Profiles = [
     icon: creator,
     link: 'https://www.hackerrank.com/profile/shafiqshahzaib',
   },
+  
 ];
 
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
+
   {
     name: "CSS 3",
     icon: css,
@@ -134,10 +132,7 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
+ 
   {
     name: "docker",
     icon: Python,
