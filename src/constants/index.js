@@ -237,11 +237,21 @@ const testimonials = [
   {
     testimonial:
       "Shahzaib Shafiq was working here as Internee in FFC. I found him very tenanted and focused. He has proved himself as a good software developer.",
-    name: "Lisa Wang",
+    name: "Muhammad Asim",
     designation: "Network Engineer",
     company: "FFC PlantSite-III",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
+  {
+    testimonial:
+      "Shahzaib consistently demonstrated a strong understanding of MERN technologies, showcasing his ability to develop efficient and scalable web applications.",
+    name: "Zainab Dogar",
+    designation: "HR & Social Media Executive",
+    company: "Quality Resource PVT LTD",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+
+
 ];
 
 const projects = [
