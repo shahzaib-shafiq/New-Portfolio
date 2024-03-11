@@ -19,16 +19,6 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  // const handleChange = (e) => {
-  //   const { target } = e;
-  //   const { name, value } = target;
-
-  //   setForm({
-  //     ...form,
-  //     [name]: value,
-  //   });
-  // };
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm((prevForm) => ({
@@ -37,50 +27,56 @@ const Contact = () => {
     }));
   };
 
+  
   // const handleSubmit = (e) => {
-    
   //   e.preventDefault();
+
+  //   // Basic form validation
+  //   if (!form.name || !form.email || !form.message) {
+  //     Swal.fire({
+  //       title: 'Error',
+  //       text: 'Please fill in all required fields.',
+  //       icon: 'error',
+  //     });
+     
+  //     return;
+  //   }
+
   //   setLoading(true);
 
-  //   emailjs   
-  //     .send(
-  //       'service_mqt21jb',
-  //       'template_abtpyg6',
-  //       {
-  //         from_name: form.name,
-  //         to_name: "SHAHZAIB SHAFIQ",
-  //         from_email: form.email,
-  //         to_email: "shafiqshahzaib@gmail.com",
-  //         message: form.message,
-  //       },
-  //       'ui5pcy55nKsDEmpGr'
-  //     )
-  //     .then(
-  //       () => {         
-  //         setLoading(false);
-  //         SendButton();
-          
-  //         setForm({
-
-          
-  //           name: "",
-  //           email: "",
-  //           message: "",
-            
-  //         });
-  //       },
-        
-  //       (error) => {
-  //         setLoading(false);
-  //         console.error(error);
-
-  //         alert("Ahh, something went wrong. Please try again.");
-  //       }
-  //     );
+  //   emailjs
+  //     .sendForm('service_mqt21jb', 'template_abtpyg6', e.target, 'ui5pcy55nKsDEmpGr')
+  //     .then((response) => {
+  //       console.log('Email sent successfully:', response);
+  //       setLoading(false);
+  //       // Show success message
+  //       Swal.fire({
+  //         title: 'Success',
+  //         text: 'Your message has been sent successfully!',
+  //         icon: 'success',
+  //       });
+  //       // Clear form
+  //       setForm({
+  //         name: '',
+  //         email: '',
+  //         message: '',
+  //       });
+  //     })
+  //     .catch((error) => {
+  //       console.error('Error sending email:', error);
+  //       setLoading(false);
+  //       // Show error message
+  //       Swal.fire({
+  //         title: 'Error',
+  //         text: 'An error occurred while sending your message. Please try again later.',
+  //         icon: 'error',
+  //       });
+  //     });
   // };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     // Basic form validation
     if (!form.name || !form.email || !form.message) {
       Swal.fire({
@@ -91,9 +87,10 @@ const Contact = () => {
      
       return;
     }
-
+  
     setLoading(true);
-
+  
+    // Use form data directly from the state (form)
     emailjs
       .sendForm('service_mqt21jb', 'template_abtpyg6', e.target, 'ui5pcy55nKsDEmpGr')
       .then((response) => {
@@ -123,7 +120,7 @@ const Contact = () => {
         });
       });
   };
-
+  
 
   return (
     <div
