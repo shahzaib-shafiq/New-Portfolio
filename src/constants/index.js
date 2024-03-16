@@ -86,6 +86,18 @@ const Profiles = [
     icon: creator,
     link: 'https://www.hackerrank.com/profile/shafiqshahzaib',
   },
+  {
+    title: "Leetcode",
+    icon: creator,
+    link: 'https://leetcode.com/shahzaibshafiq100/',
+  },
+  {
+    title: "Upwork",
+    icon: creator,
+    link: 'https://www.upwork.com/freelancers/~0135fe4da12a9f56d2?mp_source=share',
+  },
+
+
   
 ];
 
