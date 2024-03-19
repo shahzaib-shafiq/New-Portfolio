@@ -7,6 +7,14 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import linkedin from "./linkedin.png";
+import gith from "./gith.png";
+import stackoverflow from "./stack.png";
+import behance from "./behance.png";
+import Upwork from "./Upwork.png";
+import Resume from "./R.png";
+import hackerrank from "./hackerrank.png";
+import leet from './leet.png'
 
 
 import css from "./tech/css.png";
@@ -53,6 +61,14 @@ import mui from './tech/mui.png';
 
 
 export {
+  leet,
+  gith,
+  behance,
+  Upwork,
+  stackoverflow,
+  Resume,
+  hackerrank,
+  linkedin,
   Python,
   mui,
   Posrgres,

@@ -17,7 +17,7 @@ import {
   FFC,
   contract,
   nuces,
-
+leet,
   bootstrap,
   firebase,
   home,
@@ -29,6 +29,14 @@ import {
   Posrgres,
   Python,
   mui,
+  linkedin,
+  gith,
+  stackoverflow,
+  behance,
+  Upwork,
+  Resume,
+  hackerrank,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -68,44 +76,44 @@ const services = [
 const Profiles = [
   {
     title: "LinkedIn",
-    icon: web,
+    icon: linkedin,
     link: 'https://www.linkedin.com/in/shahzaib-shafiq/',
   },
   {
     title: "Github",
-    icon: mobile,
+    icon: gith,
     link: 'https://github.com/shahzaib-shafiq',
   },
   {
     title: "Resume",
-    icon: backend,
+    icon: Resume,
     link: 'https://drive.google.com/file/d/1E57mETSOL7FVsCq2nqlT-qGf-_td6WJX/view?usp=sharing',
   },
   {
     title: "HackerRank",
-    icon: creator,
+    icon: hackerrank,
     link: 'https://www.hackerrank.com/profile/shafiqshahzaib',
   },
   {
     title: "Leetcode",
-    icon: creator,
+    icon: leet,
     link: 'https://leetcode.com/shahzaibshafiq100/',
   },
   {
     title: "Upwork",
-    icon: creator,
+    icon: Upwork,
     link: 'https://www.upwork.com/freelancers/~0135fe4da12a9f56d2?mp_source=share',
   },
 
   {
     title: "Behance",
-    icon: creator,
+    icon: behance,
     link: 'https://www.behance.net/shahzaibshafiq100',
   },
 
   {
     title: "Stack Overflow",
-    icon: creator,
+    icon: stackoverflow,
     link: 'https://stackoverflow.com/users/22356171/shahzaib-shafiq',
   },
   
