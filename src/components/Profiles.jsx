@@ -51,28 +51,15 @@ const About = () => {
         Visit my Profiles
       </motion.p>
 
-      {/* <div className='mt-20 flex flex-wrap gap-10'>
+
+      <div className='mt-20 flex flex-wrap gap-10'>
         {Profiles.map((profile, index) => (
-          <ServiceCard key={profile.title} index={index} {...profile} />
+          <a key={profile.title} href={profile.link} target="_blank" rel="noopener noreferrer">
+            <ServiceCard index={index} {...profile} />
+          </a>
         ))}
-      </div> */}
+      </div>
 
-{/* 
-      <a href="https://www.google.com/">
-  <div className='mt-20 flex flex-wrap gap-10'>
-    {Profiles.map((profile, index) => (
-      <ServiceCard key={profile.title} index={index} {...profile} />
-    ))}
-  </div>
-</a> */}
-
-<div className='mt-20 flex flex-wrap gap-10'>
-      {Profiles.map((profile, index) => (
-        <a key={profile.title} href={profile.link}>
-          <ServiceCard index={index} {...profile} />
-        </a>
-      ))}
-    </div>
 
     </>
   );

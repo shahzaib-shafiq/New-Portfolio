@@ -87,7 +87,7 @@ const Profiles = [
   {
     title: "Resume",
     icon: Resume,
-    link: 'https://drive.google.com/file/d/1E57mETSOL7FVsCq2nqlT-qGf-_td6WJX/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1dT3D9vrxcoGyV-cJMCcoeROQEO1deNtn/view?usp=sharing',
   },
   {
     title: "HackerRank",
@@ -210,10 +210,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2022 - Aug 2022",
     points: [
-      "Week 1 :HTML , CSS ,Bootstrap and Tailwind",
-      "Week 2 :Networking including the working of Data Centers, Routers, Switches and Firewalls",
-      "Week 3 :Project Managment Skills including Scope Schedule and Cost of a Development Project",
-      "Week 4 :SAP Modules to Synchronize and Manage Business Operations and Customer Relations"
+      "Week-1 : Project Management skills",
+"Week 2 : SAP Modules to manage and synchronize business operations",
+"Week 3 : Networking in Data Centers",
+"Week 4 : Learned HTML,CSS for structuring website and styling",
+"Week 5 : Learned Bootstrap to create consistent website layouts",
+"Week 6 : Learned JavaScript for adding interactivity to websites",
 
 
     ],
@@ -319,6 +321,8 @@ const projects = [
     image: data,
     source_code_link: "https://github.com/shahzaib-shafiq/DS-Project",
   },
+
+
   {
     name: "Airport Management System",
     description:
@@ -340,6 +344,7 @@ const projects = [
     image: port,
     source_code_link: "https://github.com/shahzaib-shafiq/Airport-Managment-System-db-",
   },
+  
   {
     name: "Virtual Reality Page",
     description:
