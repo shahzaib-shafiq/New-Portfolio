@@ -48,19 +48,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "MERN Stack Developer",
+    title: "MERN Stack Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Native Development",
     icon: mobile,
   },
   {
-    title: "Data Science And Analytics ",
+    title: "Data Analytics and Engineering",
     icon: backend,
   },
   {
-    title: "Software Design And Engineering",
+    title: "Software Design  and Development",
     icon: creator,
   },
 ];
@@ -97,7 +97,18 @@ const Profiles = [
     link: 'https://www.upwork.com/freelancers/~0135fe4da12a9f56d2?mp_source=share',
   },
 
+  {
+    title: "Behance",
+    icon: creator,
+    link: 'https://www.behance.net/shahzaibshafiq100',
+  },
 
+  {
+    title: "Stack Overflow",
+    icon: creator,
+    link: 'https://stackoverflow.com/users/22356171/shahzaib-shafiq',
+  },
+  
   
 ];
 
@@ -210,22 +221,12 @@ const experiences = [
       "Core Courses",
       "Programming Fundamental (PF)",
       "Object Oriented Programming (OOP)",
-
       "Data Structures",
-
       "Database Systems",
-
-
       "Design and Analysis of Algorithms",
-
-
-      "Operating Systems",
-
-
-
+     "Operating Systems",
       "Parallel and Distributed Computing",
       "Software Design and Analysis",
-
       "Data Science",
       "Software Engineering",
       "Software for Mobile Devices",
@@ -244,7 +245,7 @@ const testimonials = [
     name: "Fazeel Khalid",
     designation: "Software Engineer",
     company: "Fast Dev",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
@@ -252,7 +253,7 @@ const testimonials = [
     name: "Muhammad Asim",
     designation: "Network Engineer",
     company: "FFC PlantSite-III",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
   },
   {
     testimonial:
@@ -260,7 +261,7 @@ const testimonials = [
     name: "Zainab Dogar",
     designation: "HR & Social Media Executive",
     company: "Quality Resource PVT LTD",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/women/8.jpg",
   },
 
 
