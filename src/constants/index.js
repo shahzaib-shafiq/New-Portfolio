@@ -36,6 +36,9 @@ leet,
   Upwork,
   Resume,
   hackerrank,
+  cric,
+  evoting,
+  university
   
 } from "../assets";
 
@@ -298,7 +301,7 @@ const projects = [
 
     ],
     image: fyp,
-    source_code_link: "https://drive.google.com/drive/folders/1cQxhuXTUZ_rNPIjJYvb4Bjeu82gpfq16?usp=sharing",
+    source_code_link: "https://github.com/shahzaib-shafiq/SSNA_APP_FYP",
   },
   {
     name: "Data Analysis of Imtiaz Mall Electronics Sales",
@@ -321,13 +324,54 @@ const projects = [
     image: data,
     source_code_link: "https://github.com/shahzaib-shafiq/DS-Project",
   },
-
-
+  {
+    name: "E-Voting App",
+    description:
+      "An App Developed using Android (JAVA) to cast vote online using mobile. The App will assist users to cast votes using their unique National Id Card (NIC) Number to add a new candidate, play candidate party anthem, manage voting and display total votes",
+    tags: [
+      {
+        name: " C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Oracle",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: evoting,
+    source_code_link: "",
+  },
+  {
+    name: "University Management System",
+    description:
+      "University management system to manage students, university data, student personal details, classes registration, and courses developed using SQL and PHP and Bootstrap",
+    tags: [
+      {
+        name: " C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: university,
+    source_code_link: "https://github.com/shahzaib-shafiq/University-Managment-System-PHP",
+  },
   {
     name: "Airport Management System",
     description:
       "Airport Management System Used To Manage All the Airport Opreations including booking , flight Schedule ,Arrivals,Departures using C# with Oracle  Database(SQL)",
-    tags: [
+  
+      tags: [
       {
         name: " C#",
         color: "blue-text-gradient",
@@ -343,6 +387,29 @@ const projects = [
     ],
     image: port,
     source_code_link: "https://github.com/shahzaib-shafiq/Airport-Managment-System-db-",
+  },
+  
+
+  {
+    name: "CricBuzz",
+    description:
+      "Cric Buzz App developed in C++ to manage all the cricket operations including players, teams, matches, and scorecard and ranking of teams and players moreover it covers upcoming matches , leauges and tournaments",
+    tags: [
+      {
+        name: " C++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OOP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cric,
+    source_code_link: "https://github.com/shahzaib-shafiq/OOP-PROJECT-CRICBUZZ",
   },
   
   {

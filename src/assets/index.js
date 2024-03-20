@@ -15,7 +15,9 @@ import Upwork from "./Upwork.png";
 import Resume from "./R.png";
 import hackerrank from "./hackerrank.png";
 import leet from './leet.png'
-
+import cric from './cric.png'
+import evoting from './evoting.png'
+import university from './university.png'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -61,6 +63,9 @@ import mui from './tech/mui.png';
 
 
 export {
+  cric,
+  evoting,
+  university,
   leet,
   gith,
   behance,
