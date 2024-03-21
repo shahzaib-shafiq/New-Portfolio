@@ -26,17 +26,14 @@ const Contact = () => {
       [name]: value,
     });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+  
     emailjs
       .send(
         'service_8qsve7i',
         'template_sa630we',
-        
-
         {
           from_name: form.name,
           to_name: "Shahzaib Shafiq",
@@ -49,8 +46,12 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
+          Swal.fire({
+            title: "Good job!",
+            text: "Thank you. I will get back to you as soon as possible.",
+            icon: "success"
+          });
+  
           setForm({
             name: "",
             email: "",
@@ -60,11 +61,17 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
+  
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Ahh, something went wrong. Please try again.",
+            footer: '<a href="#">Why do I have this issue?</a>'
+          });
         }
       );
   };
+  
 
   return (
     <div
