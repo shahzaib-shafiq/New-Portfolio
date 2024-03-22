@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import Swal from 'sweetalert2'
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -17,61 +17,62 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+const handleChange = (e) => {
+  const { target } = e;
+  const { name, value } = target;
 
-    setForm({
-      ...form,
-      [name]: value,
-    });
-  };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-  
-    emailjs
-      .send(
-        'service_8qsve7i',
-        'template_sa630we',
-        {
-          from_name: form.name,
-          to_name: "Shahzaib Shafiq",
-          from_email: form.email,
-          to_email: "shafiqshahzaib@gmail.com",
-          message: form.message,
-        },
-        'ui5pcy55nKsDEmpGr',
-      )
-      .then(
-        () => {
-          setLoading(false);
-          Swal.fire({
-            title: "Good job!",
-            text: "Thank you. I will get back to you as soon as possible.",
-            icon: "success"
-          });
-  
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-  
-          Swal.fire({
-            icon: "error",
-            title: "Oops...",
-            text: "Ahh, something went wrong. Please try again.",
-            footer: '<a href="#">Why do I have this issue?</a>'
-          });
-        }
-      );
-  };
-  
+  setForm({
+    ...form,
+    [name]: value,
+  });
+};
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+  setLoading(true);
+
+  emailjs
+    .send(
+      'service_8qsve7i',
+      'template_sa630we',
+      {
+        from_name: form.name,
+        to_name: "Shahzaib Shafiq",
+        from_email: form.email,
+        to_email: "shafiqshahzaib@gmail.com",
+        message: form.message,
+      },
+      'ui5pcy55nKsDEmpGr',
+    )
+    .then(
+      () => {
+        setLoading(false);
+        Swal.fire({
+          title: "Good job!",
+          text: "Thank you. I will get back to you as soon as possible.",
+          icon: "success"
+        });
+
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      },
+      (error) => {
+        setLoading(false);
+        console.error(error);
+
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Ahh, something went wrong. Please try again.",
+          footer: '<a href="#">Why do I have this issue?</a>'
+        });
+      }
+    );
+};
+
 
   return (
     <div

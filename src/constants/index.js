@@ -343,7 +343,7 @@ const projects = [
       },
     ],
     image: evoting,
-    source_code_link: "",
+    source_code_link: "https://github.com/shahzaib-shafiq/E-Voting-Android-App",
   },
   {
     name: "University Management System",
