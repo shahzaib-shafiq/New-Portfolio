@@ -48,7 +48,7 @@ const handleSubmit = (e) => {
       () => {
         setLoading(false);
         Swal.fire({
-          title: "Good job!",
+          title: "Message Sent Successfully",
           text: "Thank you. I will get back to you as soon as possible.",
           icon: "success"
         });
@@ -108,7 +108,7 @@ const handleSubmit = (e) => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What is your Email?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>

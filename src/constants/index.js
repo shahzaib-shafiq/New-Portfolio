@@ -230,7 +230,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2020 - June-2024",
     points: [
-
+      "Graduated with a Bachelor of Science in Computer Science from the National University of Computer and Emerging Sciences (FAST-NUCES), a leading institution in Pakistan. My studies equipped me with a strong foundation in core CS principles and programming languages, data structures, algorithms, software design and development",
       "Core Courses",
       "Programming Fundamental (PF)",
       "Object Oriented Programming (OOP)",
